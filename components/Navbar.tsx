@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
@@ -15,9 +16,10 @@ export default function Navbar() {
             className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100"
         >
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-2">
+                <Link href="/" className="flex items-center gap-3">
+                    <Image src="/logo.svg" alt="Building Better Logo" width={32} height={32} className="w-8 h-8 object-contain" />
                     <span className="text-xl font-bold tracking-tight text-slate-900 font-heading">
-                        BUILDING BETTER.
+                        BUILDING BETTER
                     </span>
                 </Link>
 
