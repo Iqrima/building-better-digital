@@ -16,8 +16,8 @@ export default function Navbar() {
             className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100"
         >
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-                <Link href="/" className="flex items-center gap-0">
-                    <Image src="/logo.png" alt="Building Better Logo" width={80} height={80} className="w-20 h-20 object-contain flex-shrink-0" />
+                <Link href="/" className="flex items-center gap-2">
+                    <Image src="/logo.png" alt="Building Better Logo" width={48} height={48} className="w-12 h-12 object-contain flex-shrink-0" />
                     <span className="text-xl font-bold tracking-tight text-slate-900 font-heading leading-none">
                         BUILDING BETTER
                     </span>
