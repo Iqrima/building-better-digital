@@ -17,7 +17,7 @@ export default function Navbar() {
         >
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3">
-                    <Image src="/logo.svg" alt="Building Better Logo" width={32} height={32} className="w-8 h-8 object-contain" />
+                    <Image src="/logo.png" alt="Building Better Logo" width={40} height={40} className="w-10 h-10 object-contain" />
                     <span className="text-xl font-bold tracking-tight text-slate-900 font-heading">
                         BUILDING BETTER
                     </span>
